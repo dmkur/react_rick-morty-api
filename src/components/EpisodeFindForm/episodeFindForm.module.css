@@ -1,0 +1,21 @@
+.formWrapper {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.formWrapper form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+form input {
+  margin: 0 5px;
+}
+
+.secondInput {
+  margin: 10px 10px;
+}

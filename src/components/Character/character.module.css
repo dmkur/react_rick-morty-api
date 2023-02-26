@@ -1,0 +1,43 @@
+.character {
+  flex: 1 1 28%;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  border-radius: 8px;
+
+  margin: 13px;
+  padding: 10px;
+  position: relative;
+  height: 100px;
+}
+
+.character:hover {
+  background-color: rgba(151, 151, 151, 0.274);
+}
+
+.characterInner {
+  display: flex;
+  margin-left: 110px;
+}
+
+.imgBlock img {
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.infoBlock {
+  width: 100%;
+  text-align: left;
+}
+
+.title h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.statusInfo {
+  font-weight: 300;
+  font-size: 13px;
+}

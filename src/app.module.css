@@ -1,0 +1,77 @@
+*,
+before,
+after {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0f1111;
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all ease-in 0.2s;
+
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.appWrapper {
+  max-width: 1980px;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+
+  color: #0f1111;
+  cursor: pointer;
+
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+
+  text-align: center;
+
+  user-select: none;
+
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #f7fafa;
+}
+
+select,
+button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
+
+select {
+  cursor: pointer;
+}
+
+input,
+select {
+  padding: 6px;
+  margin: 10px 0;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+}
+
+select:hover {
+  background-color: #f7fafa;
+}

@@ -1,0 +1,45 @@
+.characterDeteils {
+  display: flex;
+  justify-content: center;
+
+  margin: 20px;
+}
+
+.imgBlock img {
+  width: 180px;
+  border-radius: 8px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.status {
+  font-weight: 300;
+  font-size: 12px;
+  text-transform: lowercase;
+}
+
+.characterDeteilsInfo {
+  padding-left: 20px;
+}
+
+.origin {
+  margin: 10px 0;
+}
+
+.orignTitle,
+.locationTitle {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.characterDetailsTitle {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 700;
+  font-size: 23px;
+}
